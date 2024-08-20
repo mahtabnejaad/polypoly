@@ -562,7 +562,7 @@ int main(int argc, const char* argv[])
                 MPCD_MD_collision(d_vx , d_vy , d_vz , d_index,
                     d_mdVx , d_mdVy , d_mdVz , d_mdIndex,
                     d_ux , d_uy , d_uz , d_e , d_scalefactor , d_n , d_m ,
-                    d_rot , d_theta , d_phi , N , Nmd ,Nc ,devStates , grid_size);
+                    d_rot , d_theta , d_phi , N , Nmd ,Nc , devStates , grid_size);
             
                 Sort_finish(d_x , d_y , d_z , d_vx, d_vy, d_vz, d_index , 
                     d_mdX , d_mdY, d_mdZ, d_mdVx, d_mdVy, d_mdVz, d_mdIndex, ux, 
