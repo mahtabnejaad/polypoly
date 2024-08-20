@@ -19,7 +19,7 @@ d=10
 #number of rings:
 n=1
 #number of monomer in each ring 
-m=50
+m=100
 
 # shear rate
 s=0.0
